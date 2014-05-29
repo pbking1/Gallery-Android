@@ -1,0 +1,50 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar" >
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AnimationFade">
+    <!--   PopupWindow左右弹出的效果-->
+    <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+    <item name="android:windowExitAnimation">@anim/out_righttoleft</item>     
+	</style>
+	
+    <style name="FromBottom">
+    <!--   PopupWindow上下弹出的效果-->
+    <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+    <item name="android:windowExitAnimation">@anim/push_down_out</item>     
+	</style>
+
+    <style name="GridView4">
+		<item name="android:numColumns">auto_fit</item>
+		<item name="android:columnWidth">70dp</item>
+		<item name="android:verticalSpacing">10dp</item>
+		<item name="android:horizontalSpacing">10dp</item>
+		<item name="android:stretchMode">columnWidth</item>
+		<item name="android:persistentDrawingCache">scrolling</item>
+	</style>
+	
+    <style name="GridView3">
+		<item name="android:numColumns">auto_fit</item>
+		<item name="android:columnWidth">100dp</item>
+		<item name="android:verticalSpacing">10dp</item>
+		<item name="android:horizontalSpacing">10dp</item>
+		<item name="android:stretchMode">columnWidth</item>
+		<item name="android:persistentDrawingCache">scrolling</item>
+	</style>
+
+</resources>

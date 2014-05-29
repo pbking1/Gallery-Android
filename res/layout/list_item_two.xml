@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/listitemtwo"
+    android:background="@drawable/bg_default">
+    
+    <RelativeLayout
+    android:id="@+id/relayout"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/title_bar"
+     >
+    
+    <Button 
+        android:id="@+id/btnback"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:background="@drawable/title_btn_back"
+        />
+    
+    <Button 
+        android:id="@+id/btnedit"
+    	android:layout_width="67dp" 
+     	android:layout_height="wrap_content"
+     	android:layout_alignParentRight="true" 
+     	android:layout_centerVertical="true"
+     	android:layout_marginRight="5dp"
+     	android:text="编辑"
+     	android:textColor="#000000"
+     	android:textSize="16sp"
+	android:background="@drawable/title_btn_right"
+    />     
+    <TextView
+        android:id="@+id/gallerytext"
+    	android:text="MY ALBUM"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"	
+		android:textSize="20sp"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:gravity="center"/>  
+    </RelativeLayout>
+    
+    <AbsoluteLayout 
+        android:layout_below="@+id/relayout"
+        android:id="@+id/absolutelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/whatsnew_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" > 
+        
+        
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pagertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:background="#0000"
+            android:textColor="#ffff" />
+    </android.support.v4.view.ViewPager>  
+    
+        
+    </AbsoluteLayout>
+    
+    <ImageButton 
+           
+           android:layout_alignParentBottom="true"
+           android:id="@+id/morewallpaper"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/more_backward_icon">
+     </ImageButton>
+
+    
+    
+    
+
+</RelativeLayout>

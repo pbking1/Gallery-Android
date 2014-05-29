@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_default" >
+ 	 <RelativeLayout
+    android:id="@+id/relayout"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/title_bar"
+     >
+     
+        <Button 
+        android:id="@+id/btnback"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@drawable/title_btn_back"
+        />
+  
+    <TextView
+    	android:text="信息反馈"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"	
+		android:textSize="20sp"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:gravity="center"/>  
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_below="@+id/relayout"
+        android:id="@+id/feedback_content_tv"
+        android:text="反馈内容"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        android:textColor="#000"
+        />
+    <LinearLayout android:focusable="true"
+      android:focusableInTouchMode="true" android:layout_width="0px"
+      android:layout_height="0px" />
+    
+   <EditText
+        android:layout_below="@+id/feedback_content_tv"
+        android:id="@+id/feedback_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_preference_single_normal"
+        android:hint="请留下您的宝贵意见哦"
+        android:textColor="#000"
+        android:textSize="20sp" />
+   <TextView 
+       android:layout_below="@+id/feedback_content_tv"
+       android:id="@+id/feedback_contact_tv"
+       android:layout_marginTop="160dp"
+       android:text="联系方式"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="30dp"
+        android:textColor="#000"
+       />
+	<EditText
+	    android:layout_below="@+id/feedback_contact_tv"
+        android:id="@+id/feedback_contact_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_preference_single_normal"
+        android:hint="请留下您的邮箱地址"
+        android:textColor="#000"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+	<Button
+	    android:layout_below="@+id/feedback_contact_et"
+	    android:id="@+id/feedback_sure_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginTop="15dp"
+	    android:background="@drawable/btn_style_green"
+	    android:textColor="@color/white"
+	    android:text="确定"
+	    android:textSize="20sp" />
+
+</RelativeLayout>

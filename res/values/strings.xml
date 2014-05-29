@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">青春纪念册</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tshilianduanxin">失恋短信</string>
+    <string name="tchikuangshaonian">若不痴狂枉少年</string>
+    <string name="tforeveryoung">可以永远，但是不一定青春</string>
+    <string name="tzaolian">那一场悄然而逝的早恋</string>
+    <string name="tfatfather">变重的父亲</string>
+    <string name="talie">圆了一个谎</string>
+    <string name="tjustonedollar">我需要一美元</string>
+    <string name="wuyuanqingchun">无怨的青春</string>
+    <string name="qingchun">青春</string>
+    <string name="xiangxinweilai">相信未来</string>
+    <string name="qingchundeshi">青春的诗</string>
+    <string name="qingchunzange">青春是一首赞歌</string>
+    <string name="zhiqingchun">致青春</string>
+    <string name="qingchunyanse">青春的颜色</string>
+
+</resources>

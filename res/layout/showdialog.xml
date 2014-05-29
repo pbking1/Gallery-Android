@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg_default">
+    
+    <RelativeLayout
+    	android:id="@+id/relayout"
+    	android:layout_width="fill_parent"
+    	android:layout_height="40dp"
+    	android:background="@drawable/title_bar"
+     >
+     
+     <Button 
+        android:id="@+id/btnback"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@drawable/title_btn_back"
+        />
+  
+    <TextView
+    	android:text="CREATE NEW"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"	
+		android:textSize="20sp"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:gravity="center"/>  
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/new_creat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/new_creat"
+        >
+        
+        <TextView 
+            android:id="@+id/textname"
+            android:layout_below="@+id/new_creat"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="纪念册名称:"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+            
+            <EditText 
+            android:layout_below="@+id/textname"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/galleryname"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            />
+            
+            <TextView 
+            android:id="@+id/texttime"
+            android:layout_below="@+id/galleryname"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建的时间:"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+            
+            <EditText 
+            android:layout_below="@+id/texttime"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/gallerytime"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            />
+            
+            <ImageButton 
+                android:id="@+id/cancel"
+                android:layout_below="@+id/gallerytime"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cancel_icon"/>
+            
+            <ImageButton 
+                android:id="@+id/ok"
+                android:layout_below="@+id/gallerytime"        
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/save_icon"/>
+            
+    </RelativeLayout>
+    
+    
+    
+
+</RelativeLayout>

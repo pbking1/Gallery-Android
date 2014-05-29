@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gallery"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+                    android:required="false" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    
+
+    <application
+        
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+       >
+        <activity
+            android:name="com.example.gallery.LogoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+              android:name="com.example.gallery.MainActivity"/>
+          <activity 
+              android:name="com.example.gallery.FunActivity"/>
+          <activity
+              android:name="com.example.gallery.Showdialog" />
+          <activity
+              android:name="com.example.gallery.PersonDetal" />
+          <activity 
+              android:name="com.example.exist.HaveExist" />
+           <activity 
+              android:name="com.example.exist.ToSeeGallery" />
+           <activity 
+              android:name="com.example.exist.DetalPerson" />
+           <activity 
+              android:name="com.example.gallery.MoreActivity"/>
+           <activity
+              android:name="com.example.gallery.StartNew"/>
+           <activity 
+              android:name="com.example.fun.Qingchunyishi"/>
+           <activity 
+              android:name="com.example.fun.Showtext"/>
+           <activity 
+              android:name="com.example.fun.Qingchunzange"/>
+           <activity 
+              android:name="com.example.fun.Showzange"/>
+           <activity 
+              android:name="com.example.more.Aboutus"/>  
+           <activity 
+              android:name="com.example.more.Feedback"/> 
+           <activity 
+              android:name="com.example.more.HelpActivity"/>               
+    </application>
+
+</manifest>

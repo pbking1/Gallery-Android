@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abslayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_mate_icon" 
+        >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="10dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="100dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="100dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="190dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="190dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="280dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="280dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="370dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="370dip"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="460dip"
+        android:visibility="invisible"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    <ImageView
+        android:id="@+id/img12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="220dip"
+        android:layout_y="460dip"
+        android:visibility="invisible"
+        android:src="@drawable/add_mate_icon" >
+     </ImageView>
+     
+    
+        
+        
+
+</AbsoluteLayout>
