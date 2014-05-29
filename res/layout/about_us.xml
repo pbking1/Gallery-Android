@@ -48,7 +48,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:padding="15dp"
-            android:text="       我们是来自中山大学的软件学院11级的团队。以下是我们的联系方式，欢迎关注："
+            android:text="       我们是来自中山大学的软件学院11级的团队，项目原为彭斌参加Android大赛的比赛获奖项目。以下是我们的联系方式，欢迎关注："
             android:textColor="#000"
             android:textSize="20sp" />
 
